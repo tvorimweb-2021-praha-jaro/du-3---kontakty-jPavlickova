@@ -1,0 +1,71 @@
+html { box-sizing: border-box; }
+
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    text-rendering: optimizeLegibility;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+section {
+    margin: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 2rem 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.container {
+    padding: 2rem;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    background-color: white;
+    border-radius: inherit;
+    flex: 0 0 22%;
+    display: flex;
+    flex-direction: column;
+}
+
+.polozka {
+    align-self: center;
+}
+
+.popis {
+    padding: 0 1rem;
+}
+
+.foto {
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center;
+}
+
+.svg-container img {
+    flex-basis: 35px;
+    margin-right: 0.5rem;
+}
+
